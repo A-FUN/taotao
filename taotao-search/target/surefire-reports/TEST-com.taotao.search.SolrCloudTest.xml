@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.67" errors="1" skipped="0" tests="1" name="com.taotao.search.SolrCloudTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin"/>
+    <property name="java.vm.version" value="24.71-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\WorkSpace\taotao\taotao-search"/>
+    <property name="java.runtime.version" value="1.7.0_71-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\YUANJI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="E:\WorkSpace\taotao\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6498239188438815392.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_71\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_131/jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/jre/bin;C:/Program Files/Java/jdk1.8.0_131/jre/lib/amd64;F:\DevelopTools\Oracle\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.7.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\VisualSVN Server\bin;D:\TortoiseSVN\bin;F:\DevelopTools\apache-maven-3.2.3\bin;C:\DevelopTools\nodejs\;C:\DevelopTools\nodejs\node_modules\npm;F:\DevelopTools\Git\cmd;F:\DevelopTools\TortoiseGit\bin;F:\DevelopTools\mysql-5.6.36-winx64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\DevelopTools\R\R-3.4.3;F:\DevelopTools\R\R-3.4.3\library\rJava\jri;F:\DevelopTools\R\R-3.4.3\bin\x64;F:\DevelopTools\R\R-3.4.3\library\rJava\jri\x64;F:\DevelopTools\instantclient_11_2;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\DevelopTools\Redis-x64-3.2.100;F:\DevelopTools\OpenVPN\bin;C:\DevelopTools\Python\Scripts\;C:\DevelopTools\Python\;C:\Users\yuanjifan\AppData\Local\Microsoft\WindowsApps;C:\Users\yuanjifan\AppData\Roaming\npm;;C:\DevelopTools\eclipse-neon-svn\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\yuanjifan"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yuanj"/>
+    <property name="java.class.path" value="F:\DevelopTools\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s F:\DevelopTools\apache-maven-3.2.3\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_71\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\DevelopTools\apache-maven-3.2.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.67" classname="com.taotao.search.SolrCloudTest" name="deleteDocument">
+    <error message="No live SolrServers available to handle this request" type="org.apache.solr.client.solrj.SolrServerException">org.apache.solr.client.solrj.SolrServerException: No live SolrServers available to handle this request
+	at org.apache.solr.client.solrj.impl.LBHttpSolrServer.request(LBHttpSolrServer.java:317)
+	at org.apache.solr.client.solrj.impl.CloudSolrServer.request(CloudSolrServer.java:659)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:124)
+	at org.apache.solr.client.solrj.SolrServer.deleteByQuery(SolrServer.java:285)
+	at org.apache.solr.client.solrj.SolrServer.deleteByQuery(SolrServer.java:271)
+	at com.taotao.search.SolrCloudTest.deleteDocument(SolrCloudTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>2018-07-16 17:48:35,748 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:
+2018-07-16 17:48:35,907 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-07-16 17:48:35,907 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:host.name=A-FUN
+2018-07-16 17:48:35,907 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.version=1.7.0_71
+2018-07-16 17:48:35,907 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.vendor=Oracle Corporation
+2018-07-16 17:48:35,908 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.home=C:\Program Files\Java\jdk1.7.0_71\jre
+2018-07-16 17:48:35,908 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.class.path=E:\WorkSpace\taotao\taotao-search\target\test-classes;E:\WorkSpace\taotao\taotao-search\target\classes;D:\repository\com\taotao\taotao-manager-mapper\0.0.1-SNAPSHOT\taotao-manager-mapper-0.0.1-SNAPSHOT.jar;D:\repository\com\taotao\taotao-manager-pojo\0.0.1-SNAPSHOT\taotao-manager-pojo-0.0.1-SNAPSHOT.jar;D:\repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\repository\com\github\miemiedev\mybatis-paginator\1.2.15\mybatis-paginator-1.2.15.jar;D:\repository\com\github\pagehelper\pagehelper\3.4.2-fix\pagehelper-3.4.2-fix.jar;D:\repository\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar;D:\repository\com\alibaba\druid\1.0.9\druid-1.0.9.jar;C:\Program Files\Java\jdk1.7.0_71\jre\..\lib\jconsole.jar;C:\Program Files\Java\jdk1.7.0_71\jre\..\lib\tools.jar;D:\repository\com\taotao\taotao-common\0.0.1-SNAPSHOT\taotao-common-0.0.1-SNAPSHOT.jar;D:\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;D:\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\repository\commons-net\commons-net\3.3\commons-net-3.3.jar;D:\repository\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;D:\repository\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;D:\repository\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;D:\repository\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;D:\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;D:\repository\org\springframework\spring-context\4.1.3.RELEASE\spring-context-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-aop\4.1.3.RELEASE\spring-aop-4.1.3.RELEASE.jar;D:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\repository\org\springframework\spring-core\4.1.3.RELEASE\spring-core-4.1.3.RELEASE.jar;D:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\repository\org\springframework\spring-expression\4.1.3.RELEASE\spring-expression-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-beans\4.1.3.RELEASE\spring-beans-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-webmvc\4.1.3.RELEASE\spring-webmvc-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-web\4.1.3.RELEASE\spring-web-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-jdbc\4.1.3.RELEASE\spring-jdbc-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-tx\4.1.3.RELEASE\spring-tx-4.1.3.RELEASE.jar;D:\repository\org\springframework\spring-aspects\4.1.3.RELEASE\spring-aspects-4.1.3.RELEASE.jar;D:\repository\org\aspectj\aspectjweaver\1.8.4\aspectjweaver-1.8.4.jar;D:\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\repository\javax\servlet\jsp-api\2.0\jsp-api-2.0.jar;D:\repository\org\apache\solr\solr-solrj\4.10.3\solr-solrj-4.10.3.jar;D:\repository\commons-io\commons-io\2.3\commons-io-2.3.jar;D:\repository\org\apache\httpcomponents\httpclient\4.3.5\httpclient-4.3.5.jar;D:\repository\org\apache\httpcomponents\httpcore\4.3\httpcore-4.3.jar;D:\repository\org\apache\httpcomponents\httpmime\4.3.1\httpmime-4.3.1.jar;D:\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repository\org\codehaus\woodstox\wstx-asl\3.2.7\wstx-asl-3.2.7.jar;D:\repository\org\noggit\noggit\0.5\noggit-0.5.jar;D:\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;D:\repository\junit\junit\4.12\junit-4.12.jar;D:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;
+2018-07-16 17:48:35,908 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.library.path=C:\Program Files\Java\jdk1.7.0_71\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_131/jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/jre/bin;C:/Program Files/Java/jdk1.8.0_131/jre/lib/amd64;F:\DevelopTools\Oracle\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.7.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\VisualSVN Server\bin;D:\TortoiseSVN\bin;F:\DevelopTools\apache-maven-3.2.3\bin;C:\DevelopTools\nodejs\;C:\DevelopTools\nodejs\node_modules\npm;F:\DevelopTools\Git\cmd;F:\DevelopTools\TortoiseGit\bin;F:\DevelopTools\mysql-5.6.36-winx64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\DevelopTools\R\R-3.4.3;F:\DevelopTools\R\R-3.4.3\library\rJava\jri;F:\DevelopTools\R\R-3.4.3\bin\x64;F:\DevelopTools\R\R-3.4.3\library\rJava\jri\x64;F:\DevelopTools\instantclient_11_2;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\DevelopTools\Redis-x64-3.2.100;F:\DevelopTools\OpenVPN\bin;C:\DevelopTools\Python\Scripts\;C:\DevelopTools\Python\;C:\Users\yuanjifan\AppData\Local\Microsoft\WindowsApps;C:\Users\yuanjifan\AppData\Roaming\npm;;C:\DevelopTools\eclipse-neon-svn\eclipse;;.
+2018-07-16 17:48:35,909 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.io.tmpdir=C:\Users\YUANJI~1\AppData\Local\Temp\
+2018-07-16 17:48:35,912 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:java.compiler=&lt;NA&gt;
+2018-07-16 17:48:35,912 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:os.name=Windows 8.1
+2018-07-16 17:48:35,912 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:os.arch=amd64
+2018-07-16 17:48:35,912 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:os.version=6.3
+2018-07-16 17:48:35,912 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:user.name=yuanj
+2018-07-16 17:48:35,913 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:user.home=C:\Users\yuanjifan
+2018-07-16 17:48:35,913 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Client environment:user.dir=E:\WorkSpace\taotao\taotao-search
+2018-07-16 17:48:35,914 [main] [org.apache.zookeeper.ZooKeeper]-[INFO] Initiating client connection, connectString=192.168.43.53:2181,192.168.43.53:2182,192.168.43.53:2183 sessionTimeout=10000 watcher=org.apache.solr.common.cloud.ConnectionManager@7d7cd6ad
+2018-07-16 17:48:35,920 [main] [org.apache.zookeeper.ClientCnxn]-[DEBUG] zookeeper.disableAutoWatchReset is false
+2018-07-16 17:48:35,979 [main] [org.apache.solr.common.cloud.ConnectionManager]-[INFO] Waiting for client to connect to ZooKeeper
+2018-07-16 17:48:35,987 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[INFO] Opening socket connection to server 192.168.43.53/192.168.43.53:2183. Will not attempt to authenticate using SASL (unknown error)
+2018-07-16 17:48:35,990 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[INFO] Socket connection established to 192.168.43.53/192.168.43.53:2183, initiating session
+2018-07-16 17:48:35,994 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Session establishment request sent on 192.168.43.53/192.168.43.53:2183
+2018-07-16 17:48:36,008 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[INFO] Session establishment complete on server 192.168.43.53/192.168.43.53:2183, sessionid = 0x364a3315a980001, negotiated timeout = 10000
+2018-07-16 17:48:36,011 [main-EventThread] [org.apache.solr.common.cloud.ConnectionManager]-[INFO] Watcher org.apache.solr.common.cloud.ConnectionManager@7d7cd6ad name:ZooKeeperConnection Watcher:192.168.43.53:2181,192.168.43.53:2182,192.168.43.53:2183 got event WatchedEvent state:SyncConnected type:None path:null path:null type:None
+2018-07-16 17:48:36,011 [main] [org.apache.solr.common.cloud.ConnectionManager]-[INFO] Client is connected to ZooKeeper
+2018-07-16 17:48:36,024 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,12884901893,0  request:: &apos;/clusterstate.json,F  response:: s{4294967443,4294967732,1531657930292,1531660658060,27,0,0,0,1265,0,4294967443} 
+2018-07-16 17:48:36,027 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,12884901893,0  request:: &apos;/aliases.json,F  response:: s{4294967446,4294967446,1531657930363,1531657930363,0,0,0,0,0,0,4294967446} 
+2018-07-16 17:48:36,028 [main] [org.apache.solr.common.cloud.ZkStateReader]-[INFO] Updating cluster state from ZooKeeper... 
+2018-07-16 17:48:36,042 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,12884901893,0  request:: &apos;/clusterstate.json,T  response:: s{4294967443,4294967732,1531657930292,1531660658060,27,0,0,0,1265,0,4294967443} 
+2018-07-16 17:48:36,055 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,12884901893,0  request:: &apos;/live_nodes,T  response:: v{} 
+2018-07-16 17:48:36,066 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 5,4  replyHeader:: 5,12884901893,0  request:: &apos;/clusterstate.json,F  response:: #7b22636f6c6c656374696f6e32223a7ba2020202022736861726473223a7ba20202020202022736861726431223a7ba20202020202020202272616e6765223a2238303030303030302d6666666666666666222ca2020202020202020227374617465223a22616374697665222ca2020202020202020227265706c69636173223a7ba2020202020202020202022636f72655f6e6f646531223a7ba202020202020202020202020227374617465223a22616374697665222ca20202020202020202020202022636f7265223a22636f6c6c656374696f6e325f7368617264315f7265706c69636131222ca202020202020202020202020226e6f64655f6e616d65223a223139322e3136382e34332e35333a383038335f736f6c72222ca20202020202020202020202022626173655f75726c223a22687474703a2f2f3139322e3136382e34332e35333a383038332f736f6c72222ca202020202020202020202020226c6561646572223a2274727565227d2ca2020202020202020202022636f72655f6e6f646533223a7ba202020202020202020202020227374617465223a22646f776e222ca20202020202020202020202022636f7265223a22636f6c6c656374696f6e325f7368617264315f7265706c69636132222ca202020202020202020202020226e6f64655f6e616d65223a223139322e3136382e34332e35333a383038315f736f6c72222ca20202020202020202020202022626173655f75726c223a22687474703a2f2f3139322e3136382e34332e35333a383038312f736f6c72227d7d7d2ca20202020202022736861726432223a7ba20202020202020202272616e6765223a22302d3766666666666666222ca2020202020202020227374617465223a22616374697665222ca2020202020202020227265706c69636173223a7ba2020202020202020202022636f72655f6e6f646532223a7ba202020202020202020202020227374617465223a22646f776e222ca20202020202020202020202022636f7265223a22636f6c6c656374696f6e325f7368617264325f7265706c69636131222ca202020202020202020202020226e6f64655f6e616d65223a223139322e3136382e34332e35333a383038305f736f6c72222ca20202020202020202020202022626173655f75726c223a22687474703a2f2f3139322e3136382e34332e35333a383038302f736f6c72227d2ca2020202020202020202022636f72655f6e6f646534223a7ba202020202020202020202020227374617465223a22646f776e222ca20202020202020202020202022636f7265223a22636f6c6c656374696f6e325f7368617264325f7265706c69636132222ca202020202020202020202020226e6f64655f6e616d65223a223139322e3136382e34332e35333a383038325f736f6c72222ca20202020202020202020202022626173655f75726c223a22687474703a2f2f3139322e3136382e34332e35333a383038322f736f6c72222ca202020202020202020202020226c6561646572223a2274727565227d7d7d7d2ca20202020226d61785368617264735065724e6f6465223a2231222ca2020202022726f75746572223a7b226e616d65223a22636f6d706f736974654964227d2ca20202020227265706c69636174696f6e466163746f72223a2232222ca20202020226175746f4164645265706c69636173223a2266616c7365227d7d,s{4294967443,4294967732,1531657930292,1531660658060,27,0,0,0,1265,0,4294967443} 
+2018-07-16 17:48:36,109 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 6,3  replyHeader:: 6,12884901893,0  request:: &apos;/aliases.json,T  response:: s{4294967446,4294967446,1531657930363,1531657930363,0,0,0,0,0,0,4294967446} 
+2018-07-16 17:48:36,112 [main-SendThread(192.168.43.53:2183)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Reading reply sessionid:0x364a3315a980001, packet:: clientPath:null serverPath:null finished:false header:: 7,4  replyHeader:: 7,12884901893,0  request:: &apos;/aliases.json,F  response:: ,s{4294967446,4294967446,1531657930363,1531657930363,0,0,0,0,0,0,4294967446} 
+</system-out>
+  </testcase>
+</testsuite>
